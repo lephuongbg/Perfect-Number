@@ -1,0 +1,7 @@
+PERFECT NUMBER
+
+A small program to search for perfect numbers in a given range of number.
+The program benefits from OpenMP. It uses multithreading to process so it runs much faster than normal.
+
+Build: gcc -Wall perfect-number.c -fopenmp -lm -o'Perfect Number'
+Run: ./'Perfect Number'
